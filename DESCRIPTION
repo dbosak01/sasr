@@ -1,0 +1,22 @@
+Package: sasr
+Type: Package
+Title: Interact with a SAS® Server
+Version: 0.0.9000
+Author: David Bosak
+Maintainer: David Bosak <dbosak01@gmail.com>
+Description: Contains functions to interact with the SAS® server using the 
+    IOM Bridge. The IOM Bridge allows you to read and 
+    write SAS® datasets, run SAS® code, and interact with the SAS® meta-data 
+    server.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/dbosak01/sasr
+BugReports: https://github.com/dbosak01/sasr/issues
+Suggests: 
+  testthat,
+  knitr,
+  rmarkdown
+Imports: tibble
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
